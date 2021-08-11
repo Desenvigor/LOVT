@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+
+body{
+    font-family: 'Ropa Sans', sans-serif;
+    margin: 0 auto;
+}
+
+main{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header-page{
+    max-width: 100%;
+    margin: 0 auto 60px;
+    box-shadow:0 1px 25px rgba(0, 0, 0, 0.377);
+    padding: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.logo{
+    width: 80px;
+}
+
+.slogan{
+    width: 55px;
+}
+
+main{
+    width: 100%;
+}
+
+.carousel{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-image{
+    width: 100%;
+    
+}
+
+.arrow{
+    position: absolute;
+    width: 3%; 
+    height: 5%;    
+    top: 45%;
+    background-color: #66666673;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.arrow.arrow-left{
+    left: 5%;
+}
+
+.arrow.arrow-right{
+    right: 5%;
+}
+
+.sales-menu{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    justify-content: space-around;
+}
+
+.sales-post{
+    width: 40%;
+    background-color: #EEEEEE;
+}
+
+.sales-img{
+    width: 100%;
+}
+
+.details{
+    display: flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sales-value{
+    font-size: 30px;
+    margin: 0;
+}
+
+.sales-status{
+    font-size: 30px;
+    color: #FFF;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.sales-status.new{
+    background-color: #51d275;
+}
+
+.sales-status.sale{
+    background-color: #DC9730;
+}
+
+.sales-description{
+    margin: 0;
+    padding: 10px;
+}
+
+.menu-redirect{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
